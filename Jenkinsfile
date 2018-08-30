@@ -14,6 +14,6 @@ pipeline {
   }
   environment {
     MY_NAME = 'Susanth'
-    TEST_USR = credentials('test-user')
+    TEST_USER = credentials('test-user')
   }
 }
